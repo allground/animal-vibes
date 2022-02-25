@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua');
+
 body {
     font-family: sans-serif;
     background-color: #ffffff;
@@ -173,40 +175,8 @@ body {
       color: #35465d;
       margin: 0 auto;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+  p.resul-message {
+      font-family: 'Jua', sans-serif;
+      font-size: 25px;
+  }
