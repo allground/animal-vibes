@@ -52,13 +52,10 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Another page</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="https://github.com/allground">Github</a>
                 </li>
             </ul>
         </div>
@@ -80,7 +77,7 @@
         <div class="file-upload-content">
             <img class="file-upload-image" id="animal-image" src="#" alt="your image" />
             <p class="resul-message"></p>
-            <div id="label-container"></div>
+            <div id="label-container" ></div>
             <div class="image-title-wrap">
                 <button type="button" onclick="removeUpload()" class="remove-image">다른 사진으로 하기</button>
             </div>
@@ -190,7 +187,7 @@
             var resultMessege;
             switch (prediction[0].className) {
                 case "Sad":
-                    resultMessege = "(｡•́︿•̀｡)슬퍼보이네요 빨리 달래주세욥(｡•́︿•̀｡)"
+                    resultMessege = "(｡•́︿•̀｡)슬퍼보이네요 빨리 달래주세요...(｡•́︿•̀｡)"
                     break;
                 case "Angry":
                     resultMessege = "◕`ε´◕화난거 같네요 간식하나주면 화가 풀릴지도!?◕`ε´◕"
